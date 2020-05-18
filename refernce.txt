@@ -1,0 +1,24 @@
+computed: {
+    // getEvent() {
+    //   return this.$store.getters.getEventById;
+    // },
+    // catLength() {
+    //   return this.$store.getters.catLength;
+    // }
+    ...mapGetters(['getEventById']),
+    ...mapState(['user', 'categories'])
+  }
+
+  //  mapState({
+  //   user: 'user',
+  //   categories: 'categories'
+
+  //   // different ways state can be computed
+  //   // userName: state => state.user.name,
+  //   // categories: state => state.categories
+
+  //   // userName() {
+  //   //   return this.$store.state.user.name;
+  //   // }
+  // })
+};
