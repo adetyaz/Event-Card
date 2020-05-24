@@ -20,3 +20,12 @@ export const mutations = {
         );
     }
 };
+
+export const actions = {
+    add({ commit }, notification) {
+        commit('PUSH', notification);
+    },
+    remove({ commit }, notification) {
+        commit('DELETE', notification);
+    }
+};

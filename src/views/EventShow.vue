@@ -34,17 +34,30 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
+// import { mapState } from 'vuex';
+// import NProgress from 'nprogress';
+// import store from '@/store/index';
 
 export default {
-  props: ['id'],
-
-  created() {
-    this.$store.dispatch('events/fetchEvent', this.id);
-  },
-  computed: mapState({
-    event: state => state.events.event
-  })
+  props: {
+    event: {
+      type: Object,
+      required: true
+    }
+  }
+  // beforeRouteEnter(routeTo, routeFrom, next) {
+  //   NProgress.start();
+  //   store.dispatch('events/fetchEvent', routeTo.params.id).then(() => {
+  //     NProgress.done();
+  //     next();
+  //   });
+  // },
+  // created() {
+  //   this.$store.dispatch('events/fetchEvent', this.id);
+  // },
+  // computed: mapState({
+  //   event: state => state.events.event
+  // })
 };
 </script>
 
