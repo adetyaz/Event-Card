@@ -302,6 +302,60 @@
       "time": "12:00",
       "attendees": [],
       "date": "2020-05-08T21:21:00.000Z"
+    },
+    {
+      "id": 380620,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "puppy",
+      "description": "yay",
+      "location": "old town road",
+      "time": "20:00",
+      "attendees": [],
+      "date": "2020-06-04T10:32:00.000Z"
+    },
+    {
+      "id": 137829,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "hay",
+      "description": "hip hip hip",
+      "location": "downtown",
+      "time": "9:00",
+      "attendees": [],
+      "date": "2020-08-01T14:06:00.000Z"
+    },
+    {
+      "id": 492282,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "time": "6:00",
+      "attendees": [],
+      "date": "2020-06-05T14:30:00.000Z"
     }
   ]
 }
